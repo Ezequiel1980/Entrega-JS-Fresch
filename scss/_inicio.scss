@@ -1,0 +1,154 @@
+:root {
+    --facebook: #3b5998;
+    --instagram: #da2b2b;
+    --whatsapp: #43d854;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: $separacion;
+
+    .buscador {
+        border: 2px solid grey;
+        border-radius: 8px;
+
+
+        i {
+            padding-right: 8px;
+
+        }
+
+        input {
+            border-radius: 8px;
+            width: 60px;
+            height: 40px;
+            padding-left: 10px;
+            border: 0;
+            outline: none;
+            transition: all 0.5s ease;
+        }
+
+        input:hover {
+            width: 150px;
+        }
+
+        input:focus {
+            width: 150px;
+        }
+
+    }
+
+}
+
+main {
+    padding: $separacion;
+
+    .division-home {
+        font-family: 'Roboto+condensed', sans-serif;
+        text-align: center;
+        margin: 15px 0;
+        padding: 10px 0;
+        border-top: $bordes;
+    }
+
+    h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+nav {
+    font-family: $fuente1;
+
+    div ul li {
+        padding: 0 2rem;
+        font-size: 2rem;
+    }
+
+    ul li:hover {
+        transform: scale(1.1);
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+
+    ul li a:hover {
+        color: #ffd500 !important;
+    }
+
+}
+
+div .card {
+    margin-left: 1.2rem !important;
+}
+
+footer {
+    margin: 0 15px;
+    border-top: 1px solid #cdcccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: auto;
+
+    div ul li {
+        list-style-type: none;
+    }
+
+    p {
+        font-size: 0.8rem;
+        color: #6d6d6d;
+    }
+
+    .redes ul li {
+        display: inline-block;
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .redes ul {
+        padding: 0;
+    }
+
+    .redes ul li a {
+        display: block;
+        padding: 0 10px;
+        border-radius: 50%;
+        background-color: #333;
+        color: #ffffff;
+        line-height: 50px;
+        font-size: 18px;
+        box-shadow: 0 3px 5px 0px (0, 0, 0, .2);
+    }
+
+    .redes ul li a:hover {
+        transform: translateY(-2px);
+        transform: scale (0.2);
+        box-shadow: 0 5px 5px 5px (0, 0, 0, .4);
+
+    }
+
+    .redes ul li .facebook:hover {
+        background: var(--facebook);
+    }
+
+    .redes ul li .instagram:hover {
+        background: var(--instagram);
+    }
+
+    .redes ul li .whatsapp:hover {
+        background: var(--whatsapp);
+    }
+}

@@ -1,0 +1,27 @@
+.nosotros {
+   position: relative;
+   margin: 0;
+   
+   
+   min-height: 100vh;
+   background-image: url(https://images.pexels.com/photos/9830553/pexels-photo-9830553.jpeg);
+
+      .text-nosotros {
+         
+         width: 800px;
+         position: absolute;
+         top: 80px;
+         left: 100px;
+         margin: 0;
+         padding: 35px;
+         background-color: rgba(44, 44, 44, 0.822);
+         border-radius: 10px;
+         text-shadow: 2px 2px 0px #3a3a3a;
+
+         font-family: 'Radley', serif;
+         font-size: 30px;
+         color: #ffffff;
+         text-align: justify;
+      
+      }
+}

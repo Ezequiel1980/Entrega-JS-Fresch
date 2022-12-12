@@ -1,14 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preentrega</title>
-</head>
-<body>
-    <h1> Holaaaaa</h1>
+<html lang="en">
 
-    <script src="main.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="redes sociales, verde, deco, productos, decoracion, lampara, iluminacion, led">
+  <meta name="description" content="Productor">
+  <meta name="author" content="Ezequiel Fresch">
+  <!-- Estilos Bootstrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Icono web explorador -->
+  <link rel="icon" href="../img/logo solo.png">
+  <!-- Fuentes google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Radley&display=swap"
+        rel="stylesheet">
+  
+    <!-- FUENTE ICONOS -->
+    <script src="https://kit.fontawesome.com/614f48db9c.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Titulo de la Web -->
+  <title>Productos-Verde Deco</title>
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <a href="../index.html" class="home-logo">
+        <img src="img/logo completo.png" alt="logo" style="width: 200px;">
+      </a>
+    </div>
+    <div class="buscador">
+      <input type="text" placeholder="Buscar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid ">
+      <button class="navbar-toggler text-white " type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  pb-2 mb-4 border-bottom border-ligth" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class=" text-dark nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-dark nav-link active" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-dark nav-link active" href="#">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-dark nav-link active" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-dark nav-link active" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="container-general">
+  <section id="section-productos"></section>
+  <section id="section-carrito"></section> 
+  </div>
+  <footer>
+    <div class="redes">
+      <ul>
+        <li><a href="https://www.instagram.com/" target="_blank" class="instagram"><i
+              class='bx bxl-instagram-alt'></i></a></li>
+        <li><a href="https://web.whatsapp.com/" target="_blank" class="whatsapp"><i class='bx bxl-whatsapp'></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/" target="_blank" class="facebook"><i
+              class='bx bxl-facebook-circle'></i></a></li>
+      </ul>
+    </div>
+    <p>Copyright ®2022 Verde Deco Lighting </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="productos.js"></script>
+    <script src="carrito.js"></script>
+    
 </body>
+
 </html>

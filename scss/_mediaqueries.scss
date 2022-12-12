@@ -1,0 +1,323 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+   header {
+      flex-direction: column;
+      align-items: flex-start;
+      
+      .buscador {
+         align-self: center;
+         margin-top: 15px;
+         border: 2px solid grey;
+         border-radius: 8px;
+
+
+      }
+   }
+
+   .card:hover {
+      transform: none;
+   }
+
+   nav ul li:hover {
+      transform: none;
+   }
+
+   .ofertas {
+
+      grid-template-rows: repeat(1, 1fr);
+
+      .offer-1 {
+         grid-column: 3/3;
+         grid-row: 1;
+      }
+
+      .offer-2 {
+         grid-column: 3/3;
+         grid-row: 2;
+      }
+
+      .offer-3 {
+         grid-column: 3/3;
+         grid-row: 3;
+
+      }
+   }
+
+
+   .contact {
+
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      text-align: center;
+
+   }
+
+   .nosotros {
+      min-height: 110vh;
+
+      .text-nosotros {
+         width: 330px;
+         height: 800px;
+         top: 40px;
+         left: 25px;
+         font-size: 20px;
+
+      }
+   }
+
+   .map .mapa {
+      width: 200px;
+      height: 200px;
+      ;
+   }
+
+   .contact-list {
+      ul {
+         padding-left: 0;
+      }
+
+      ul li {
+
+         font-size: 20px;
+      }
+
+      .form {
+         .nombre {
+            width: 200px;
+            @include form;
+
+         }
+
+         #mail {
+            width: 200px;
+            @include form;
+         }
+
+         #msg {
+            width: 200px;
+            height: 200px;
+         }
+
+      }
+
+   }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+   .card:hover {
+      transform: none;
+   }
+
+   nav ul li:hover {
+      transform: none;
+   }
+
+   .contact {
+
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      text-align: center;
+
+   }
+
+   .nosotros {
+      min-height: 100vh;
+
+      .text-nosotros {
+         width: 600px;
+         height: 900px;
+         top: 40px;
+         left: 60px;
+
+      }
+   }
+
+   .map .mapa {
+      width: 250px;
+      height: 250px;
+
+   }
+
+   .contact-list {
+      ul {
+         padding-left: 0;
+      }
+
+      ul li {
+
+         font-size: 25px;
+      }
+
+      .form {
+         .nombre {
+            width: 250px;
+            @include form;
+
+         }
+
+         #mail {
+            width: 250px;
+            @include form;
+         }
+
+         #msg {
+            width: 250px;
+            height: 200px;
+         }
+
+      }
+
+   }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   .card:hover {
+      transform: none;
+   }
+
+   nav ul li:hover {
+      transform: none;
+   }
+
+   .nosotros {
+      min-height: 100vh;
+
+      .text-nosotros {
+         width: 600px;
+         height: 900px;
+         top: 40px;
+         left: 60px;
+
+      }
+   }
+
+   .map .mapa {
+      margin-top: 100px;
+      width: 300px;
+      height: 300px;
+
+   }
+
+   .contact-list {
+      ul li {
+         font-size: 20px;
+      }
+
+      .form {
+         .nombre {
+            width: 200px;
+            @include form;
+
+         }
+
+         #mail {
+            width: 200px;
+            @include form;
+         }
+
+         #msg {
+            width: 200px;
+            height: 200px;
+         }
+
+      }
+
+   }
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+   .nosotros {
+      margin: 30px 60px;
+      min-height: 80vh;
+
+   }
+
+   .contact-list {
+      ul li {
+         font-size: 25px;
+      }
+
+      .form {
+         .nombre {
+            width: 300px;
+            @include form;
+
+         }
+
+         #mail {
+            width: 300px;
+            @include form;
+         }
+
+         #msg {
+            width: 300px;
+            height: 200px;
+         }
+
+      }
+
+   }
+
+   .map .mapa {
+      margin-top: 100px;
+      width: 400px;
+      height: 400px;
+
+   }
+
+
+   .text-nosotros {
+      font-size: 50px;
+      padding: 0 100px;
+
+   }
+}
+
+@media screen and (min-width: 1920px) {
+   .nosotros {
+      margin: 30px 60px;
+      min-height: 60vh;
+
+      .text-nosotros {
+         top: 80px;
+         left: 80px;
+         width: 1200px;
+      }
+   }
+
+   .contact-list {
+      ul li {
+         font-size: 25px;
+      }
+
+      .form {
+         .nombre {
+            width: 300px;
+            @include form;
+
+         }
+
+         #mail {
+            width: 300px;
+            @include form;
+         }
+
+         #msg {
+            width: 300px;
+            height: 200px;
+         }
+
+      }
+
+   }
+
+   .map .mapa {
+      margin-top: 100px;
+      width: 400px;
+      height: 400px;
+
+   }
+}

@@ -1,0 +1,41 @@
+.contact {
+   margin: 0;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-evenly;
+   text-align: justify;
+
+   h1 {
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #cdcccc;
+   }
+
+   .form input {
+      outline: none;
+   }
+
+   .form li {
+      list-style-type: none;
+
+   }
+
+   .contact-list ul li {
+      font-family: 'Oswald', sans-serif;
+      list-style-type: none;
+   }
+
+   #msg {
+      width: 185px;
+      height: 200px;
+   }
+
+   .mapa {
+      width: 800px;
+      height: 500px;
+      border: 3px solid #cdcccc;
+      border-radius: 15px;
+
+   }
+}

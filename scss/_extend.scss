@@ -1,0 +1,26 @@
+.card {
+    border: $bordes;
+    border-radius: 5px;
+    width: 16rem;
+    margin-bottom: 2rem;
+    .description {
+       font-family: 'Oswald', sans-serif;
+       background-color: #cdcccc46;
+       padding: 20px 0px;   
+    }
+    .boton-compra {
+       @include boton-compra
+      }
+      .precio {
+        padding: 2px;
+       margin-bottom: 15px;
+       border-radius: 15px;
+       width: 9em;
+       height: 1.8em;
+       background-color: rgba(8, 153, 3, 0.651);
+       color: #fff;
+    }
+    
+ } 
+
+ 
